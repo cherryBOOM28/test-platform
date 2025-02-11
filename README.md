@@ -32,3 +32,93 @@ JWT_SECRET=mySuperSecretKey
   ```
   npm run dev
   ```
+
+
+## Endpoints
+
+- Get all tests:
+
+```
+GET http://localhost:5003/api/tests
+```
+
+- Get all tests with answers:
+
+```
+GET http://localhost:5003/api/tests/:id
+```
+
+- Delete test:
+
+```
+DELETE http://localhost:5003/api/tests/:id
+```
+
+- Update test:
+
+```
+PUT http://localhost:5003/api/tests/:id
+```
+
+- Create test:
+
+```
+POST http://localhost:5003/api/tests
+```
+
+- Create test:
+
+```
+POST http://localhost:5003/api/tests
+```
+
+- Auth:
+
+- Create user:
+
+```
+POST http://localhost:5003/api/auth/register
+```
+
+- Log in:
+
+```
+POST http://localhost:5003/api/auth/login
+```
+
+
+
+- Question:
+
+- Create question:
+  
+```
+POST http://localhost:5003/api/questions
+```
+
+- Edit question:
+  
+```
+PUT http://localhost:5003/api/questions/:id
+```
+
+- Edit question:
+  
+```
+DELETE http://localhost:5003/api/questions/:id
+```
+
+
+- User result:
+
+- Get user results:
+  
+```
+GET http://localhost:5003/api/answers/results/:id/:userId
+```
+
+- Create user answer:
+  
+```
+POST http://localhost:5003/api/answers/submit
+```
