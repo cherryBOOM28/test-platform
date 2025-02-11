@@ -4,11 +4,13 @@
 
 Create a `.env` file in the root directory and add the following environment variables:
 
+```
 DB_USER=postgres
 DB_HOST=localhost
 DB_NAME=test_api
 DB_PASSWORD=2002
 DB_PORT=5433
+```
 
 PORT=5003
 JWT_SECRET=mySuperSecretKey
@@ -20,11 +22,13 @@ JWT_SECRET=mySuperSecretKey
 
   
 4. Start the app:  
-- Production mode:  
+- Production mode:
+  
   ```
   npm run start
   ```
-- Development mode (with hot reload):  
+- Development mode (with hot reload):
+  
   ```
   npm run dev
   ```
