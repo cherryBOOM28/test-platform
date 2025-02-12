@@ -10,10 +10,11 @@ DB_HOST=localhost
 DB_NAME=test_api
 DB_PASSWORD=2002
 DB_PORT=5433
-```
 
 PORT=5003
 JWT_SECRET=mySuperSecretKey
+```
+
 
 
 2. Install dependencies
@@ -102,7 +103,7 @@ POST http://localhost:5003/api/questions
 PUT http://localhost:5003/api/questions/:id
 ```
 
-- Edit question:
+- Delete question:
   
 ```
 DELETE http://localhost:5003/api/questions/:id
